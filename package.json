@@ -1,5 +1,5 @@
 {
-  "name": "vue_cli3_px_to_viewport_h5",
+  "name": "vue_cli3_px_to_rem_h5",
   "version": "1.0.0",
   "private": false,
   "scripts": {
@@ -40,9 +40,8 @@
     "postcss-cssnext": "^3.1.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
-    "postcss-px-to-viewport": "^1.1.0",
+    "postcss-plugin-px2rem": "^0.8.1",
     "postcss-url": "^8.0.0",
-    "postcss-viewport-units": "^0.1.6",
     "postcss-write-svg": "^3.0.1",
     "sass": "^1.16.0",
     "sass-loader": "^7.1.0",

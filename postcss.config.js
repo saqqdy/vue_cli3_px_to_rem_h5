@@ -7,14 +7,16 @@ module.exports = {
       utf8: false
     },
     "postcss-cssnext": {},
-    "postcss-px-to-viewport": {
-      viewportWidth: 375,
-      viewportHeight: 667,
-      unitPrecision: 5,
-      viewportUnit: "vw",
-      selectorBlackList: [".ignore", ".hairlines", ".ig-"],
-      minPixelValue: 1,
-      mediaQuery: false
+    "postcss-plugin-px2rem": {
+      "rootValue": { "px": 37.5, "rpx": 100 },
+      "unitPrecision": 5,
+      "propWhiteList": [],
+      "propBlackList": [],
+      "selectorBlackList": [".ignore", ".hairlines", ".ig-"],
+      "ignoreIdentifier": false,
+      "replace": true,
+      "mediaQuery": false,
+      "minPixelValue": 1.01
     },
     cssnano: {
       preset: [

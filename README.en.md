@@ -1,7 +1,7 @@
-# vue_cli3_px_to_rem_h5
+# vue_cli3_px_to_viewport_h5
 
 #### Description
-VUE CLI3适配H5应用的框架，采用px自动转rem的方式
+VUE CLI3适配H5应用的框架，采用px自动转vw的方式
 
 #### Software Architecture
 Software architecture description

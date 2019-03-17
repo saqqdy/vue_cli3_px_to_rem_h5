@@ -1,0 +1,23 @@
+{
+  "trailingComma": "none",
+  "printWidth": 1000,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "filepath": "",
+  "jsxBracketSameLine": true,
+  "insertPragma": false,
+  "useTabs": false,
+  "proseWrap": "preserve",
+  "requirePragma": false,
+  "cursorOffset": -1,
+  "rangeStart": 0,
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "overrides": [{
+    "files": "*.test.js",
+    "options": {
+      "semi": true
+    }
+  }]
+}

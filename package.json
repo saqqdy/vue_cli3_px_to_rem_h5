@@ -11,7 +11,7 @@
     "inspect": "vue-cli-service inspect"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.0",
     "fastclick": "^1.0.6",
     "vue": "^2.5.22",
     "vue-router": "^3.0.1",
